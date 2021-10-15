@@ -77,6 +77,10 @@ body {
   margin-right: 17px;
 }
 
+.appbar-links a:hover {
+  color: black;
+}
+
 .appbar-search {
   height: 48px;
   width: 668px;
@@ -98,6 +102,10 @@ body {
   color: #2264D1;
   font-size: 20px;
   margin-right: 123px;
+}
+
+.appbar-consumer a:hover {
+  color: #787885;
 }
 
 .appbar-buttons {
@@ -237,6 +245,14 @@ body {
   cursor: pointer;
 }
 
+.content-left-categories-all:hover,
+.sub-category:hover,
+.sub-category-opened:hover,
+.sub-sub-category-opened:hover,
+.sub-sub-categories span:hover {
+  opacity: 0.8;
+}
+
 .category-opened {
   display: flex;
   justify-content: flex-start;
@@ -310,6 +326,9 @@ body {
   font-size: 14px;
 }
 
+.sub-category-button:hover {
+  background: lightblue;
+}
 
 .content-left-collapsed {
   width: 80%;
@@ -359,16 +378,16 @@ body {
   padding: 10px 0 0 20px;
 }
 
+.expanded-option:hover {
+  opacity: 0.85;
+}
+
 .expanded-option input {
   width: 18px;
   height: 18px;
   background: #DADADA;
   margin-right: 19px;
 }
-
-
-
-
 
 .content-right {
   margin-bottom: 40px;
