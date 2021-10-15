@@ -14,7 +14,7 @@ body {
   height: 88px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-around; */
 }
 
 .appbar a {
@@ -24,6 +24,8 @@ body {
 
 .appbar-logo {
   display: flex;
+  width: 100%;
+  margin-right: 22px;
 }
 
 .appbar-logo__gradient {
@@ -63,12 +65,16 @@ body {
 
 .appbar-links {
   display: flex;
-  margin: 0 100px 0 -50px;
+  margin-right: 107px;
 }
 
 .appbar-links a{
   margin-right: 16px;
   color: #5A5B6A;
+}
+
+.appbar-links a:first-child {
+  margin-right: 17px;
 }
 
 .appbar-search {
@@ -79,6 +85,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 30px;
 }
 
 .appbar-search__icon {
@@ -90,6 +97,7 @@ body {
 .appbar-consumer a{
   color: #2264D1;
   font-size: 20px;
+  margin-right: 123px;
 }
 
 .appbar-buttons {
@@ -183,8 +191,13 @@ body {
 }
 
 .content-left__button a{
-  display: flex;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
   height: 56px;
+  display: flex;
   align-items: center;
   color: #2264D1;
   text-decoration: none;
@@ -645,6 +658,11 @@ footer {
 
 .footer-section__top-customer-menu a {
   margin-right: 40px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
 }
 
 .footer-section__top-customer-menu a:last-child {
@@ -686,6 +704,10 @@ footer {
   margin-right: 24px;
 }
 
+.footer-section__top-contact-track svg {
+  cursor: pointer;
+}
+
 .footer-section__top-contact-track svg:last-child {
   margin-left: 20px;
 }
@@ -693,6 +715,14 @@ footer {
 .footer-section__top-business {
   width: 30%;
   margin-left: auto;
+}
+
+.footer-section__top-business a {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
 }
 
 .footer-section__top-contact-business {
