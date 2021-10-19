@@ -222,14 +222,6 @@ ul {
   border-radius: 10px;
 }
 
-/* .tab:hover path {
-  fill: #2979ff;
-}
-
-.tab:hover > .tab-text {
-  color: #2979ff;
-} */
-
 .all-content {
   display: grid;
   grid-template-columns: 2.5fr 7.5fr;
