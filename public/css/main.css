@@ -178,7 +178,7 @@ ul {
   height: 40px;
   width: 40px;
   border-radius: 99px;
-  background: black;
+  cursor: pointer;
 }
 
 .content-wrapper {
