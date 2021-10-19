@@ -153,6 +153,11 @@ ul {
   border-radius: 4px;
 }
 
+.active-btn {
+  border: 1px solid #9dc2ff;
+  box-shadow: none;
+}
+
 .appbar-cart > .appbar-btn:hover {
   opacity: 0.7;
 }
