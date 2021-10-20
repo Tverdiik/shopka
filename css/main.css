@@ -858,7 +858,7 @@ footer {
 .footer-mid {
   background: #e6e6ea;
   min-height: 50px;
-  padding: 0 9% 0 31%;
+  padding: 0 10% 0 31%;
   display: flex;
   justify-content: space-between;
 }
@@ -866,15 +866,18 @@ footer {
 .side-borders {
   border-left: 1px solid #d1d1e1;
   border-right: 1px solid #d1d1e1;
-  display: flex;
-  align-items: center;
-  /* width: 30%; */
 }
 
 .side-border {
   border-right: 1px solid #d1d1e1;
+}
+
+.side-border,
+.side-borders {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 33%;
 }
 
 .footer-mid-mail {
