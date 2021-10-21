@@ -537,8 +537,9 @@ ul {
   border-radius: 4px;
 }
 
-#active,
-#active path {
+.active-filter,
+.active-type,
+.active-type path {
   fill: #2264d1;
   color: #2264d1;
   background: #ffffff;
@@ -606,6 +607,12 @@ ul {
 
 .card-text {
   line-height: 150%;
+}
+
+.card-name,
+.item-price,
+.card-info {
+  overflow: hidden;
 }
 
 .card-name {
