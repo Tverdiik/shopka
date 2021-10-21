@@ -558,7 +558,6 @@ ul {
   color: #19191d;
   font-size: 14px;
   font-weight: 500;
-  padding-left: 5px;
   margin-right: 10px;
   display: flex;
   align-items: center;
@@ -824,6 +823,10 @@ footer {
   margin-right: 34px;
 }
 
+.footer-contact-mail:last-child {
+  margin-right: 0;
+}
+
 .footer-section-contact {
   display: flex;
   align-items: center;
@@ -869,6 +872,10 @@ footer {
 .social-link {
   cursor: pointer;
   margin-right: 20px;
+}
+
+.social-link:last-child {
+  margin: 0;
 }
 
 .footer-contact-business {
