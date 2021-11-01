@@ -687,12 +687,19 @@ ul {
 }
 
 .item-watch {
-  background: url(../img/heart-icon.png) no-repeat center left 8px;
-  padding: 5px 12px 5px 36px;
+  display: flex;
+  padding: 5px 11px;
+  /* align-items: center; */
   border: 1px solid #9dc2ff;
   border-radius: 4px;
   font-size: 14px;
   color: #2264d1;
+}
+
+.heart-icon {
+  display: inline-block;
+  padding-top: 1px;
+  margin-right: 7px;
 }
 
 .item-watch:hover {
@@ -712,10 +719,6 @@ ul {
 .item-rate {
   margin-right: 30px;
   padding-left: 10px;
-}
-
-.heart-icon {
-  padding: 7px;
 }
 
 .content-right__cards {
