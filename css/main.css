@@ -674,11 +674,15 @@ ul {
   line-height: 22px;
 }
 
-.card-image {
+.card-frame {
   height: 224px;
   width: 226px;
   border: none;
   margin-bottom: 12px;
+}
+
+.card-image {
+  max-width: 100%;
 }
 
 .item-reviews {
@@ -689,7 +693,6 @@ ul {
 .item-watch {
   display: flex;
   padding: 5px 11px;
-  /* align-items: center; */
   border: 1px solid #9dc2ff;
   border-radius: 4px;
   font-size: 14px;
